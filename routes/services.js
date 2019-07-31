@@ -10,6 +10,6 @@ router.get('/', services_controller.services_all_get);
 
 router.get('/:id', services_controller.services_detail);
 
-router.post('/book', book_controller.reserva_registro);
+//router.post('/book', book_controller.reserva_registro);
 
 module.exports = router;

@@ -8,6 +8,6 @@ module.exports = conn.define('reserva', {
     email:Sequelize.STRING,
     fecha:Sequelize.STRING,
     hora:Sequelize.STRING
-},  {
+},  { 
     timestamps: false
 })
